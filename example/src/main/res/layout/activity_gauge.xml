@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gauge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="#ffffff"
+        android:text="location=" />
+
+    <com.gauge.tsnt.gaugeview.GaugeView
+        android:id="@+id/gauge"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@android:color/white"
+        app:endNum="9000"
+        app:gapDistance="20dp"
+        app:gapNum="20"
+        app:lineColor="#ff0f00"
+        app:startNum="100"
+        app:textColor="#307bf2" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@android:color/holo_orange_dark" />
+
+</RelativeLayout>

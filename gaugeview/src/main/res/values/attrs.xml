@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GaugeView">
+        <attr name="startNum" format="integer" />
+        <attr name="endNum" format="integer" />
+        <attr name="gapNum" format="integer" />
+        <attr name="gapDistance" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="string" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="lineColor" format="string" />
+    </declare-styleable>
+
+</resources>
